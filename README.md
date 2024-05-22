@@ -1,6 +1,6 @@
 # nodejs-modules
 a list of awesome nodejs modules and their usages
-<br>
+<hr>
 
 ### 1. `express`
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
@@ -25,6 +25,7 @@ app.listen(port, () => {
 });
 ```
 This example sets up a basic web server that responds with "Hello World!" when accessed.
+<hr>
 
 ### 2. `mongoose`
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js, which provides a straightforward, schema-based solution to model your application data.
@@ -46,6 +47,7 @@ const kitty = new Cat({ name: 'Zildjian' });
 kitty.save().then(() => console.log('meow'));
 ```
 This example connects to a MongoDB database and saves a simple document.
+<hr>
 
 ### 3. `jsonwebtoken`
 jsonwebtoken is a library to work with JSON Web Tokens (JWTs). It can be used for securely transmitting information between parties as a JSON object.
@@ -71,6 +73,7 @@ jwt.verify(token, 'shhhhh', (err, decoded) => {
 });
 ```
 This example generates a JWT and verifies it.
+<hr>
 
 ### 4. `lodash`
 Lodash is a modern JavaScript utility library delivering modularity, performance, & extras.
@@ -91,6 +94,8 @@ console.log('Even numbers:', evens);
 ```
 This example uses Lodash to filter an array for even numbers.
 
+<hr>
+
 ### 5. `chalk`
 Chalk is a terminal string styling library that allows you to style your terminal output.
 
@@ -108,6 +113,9 @@ console.log(chalk.red('This text is red!'));
 console.log(chalk.green('This text is green!'));
 ```
 This example demonstrates how to style terminal text using Chalk.
+
+<hr>
+
 
 ### 6. `dotenv`
 dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`.
@@ -135,6 +143,9 @@ console.log('Database Password:', process.env.DB_PASS);
 ```
 This example shows how to load environment variables from a `.env` file.
 
+<hr>
+
+
 ### 7. `moment`
 Moment is a library for parsing, validating, manipulating, and formatting dates.
 
@@ -154,6 +165,9 @@ const tomorrow = moment().add(1, 'days');
 console.log('Tomorrow:', tomorrow.format('YYYY-MM-DD'));
 ```
 This example shows how to manipulate and format dates using Moment.
+
+<hr>
+
 
 ### 8. `bcrypt`
 bcrypt is a library to help you hash passwords.
@@ -189,6 +203,9 @@ This example demonstrates how to hash and compare passwords using bcrypt.
 
 Absolutely! Here are some additional useful Node.js modules along with examples:
 
+<hr>
+
+
 ### 9. `async`
 The `async` library provides powerful functions for working with asynchronous JavaScript, making it easier to manage complex flows.
 
@@ -220,6 +237,9 @@ async.series([
 ```
 This example shows how to run tasks in series.
 
+<hr>
+
+
 ### 10. `winston`
 Winston is a versatile logging library for Node.js.
 
@@ -246,6 +266,9 @@ logger.error('Hello, this is an error message');
 ```
 This example demonstrates basic logging with Winston.
 
+<hr>
+
+
 ### 11. `multer`
 Multer is a middleware for handling `multipart/form-data`, which is primarily used for uploading files.
 
@@ -270,6 +293,9 @@ app.listen(3000, () => {
 });
 ```
 This example sets up a route to handle file uploads.
+
+<hr>
+
 
 ### 12. `nodemailer`
 Nodemailer is a module for sending emails from Node.js applications.
@@ -308,6 +334,9 @@ transporter.sendMail(mailOptions, (error, info) => {
 ```
 This example shows how to send an email using Nodemailer.
 
+<hr>
+
+
 ### 13. `cors`
 CORS is a middleware to enable Cross-Origin Resource Sharing in Express applications.
 
@@ -334,6 +363,9 @@ app.listen(3000, () => {
 ```
 This example sets up an Express server with CORS enabled.
 
+<hr>
+
+
 ### 14. `helmet`
 Helmet helps secure Express apps by setting various HTTP headers.
 
@@ -359,6 +391,9 @@ app.listen(3000, () => {
 });
 ```
 This example demonstrates how to enhance security using Helmet.
+
+<hr>
+
 
 ### 15. `pm2`
 PM2 is a production process manager for Node.js applications that allows you to keep applications alive forever, reload them without downtime, and facilitate common system admin tasks.
@@ -404,6 +439,9 @@ app.listen(3000, () => {
 ```
 This example shows how to enable response compression in an Express app.
 
+<hr>
+
+
 ### 17. `socket.io`
 Socket.IO enables real-time, bidirectional, and event-based communication.
 
@@ -434,6 +472,9 @@ server.listen(3000, () => {
 });
 ```
 This example sets up a basic Socket.IO server.
+
+<hr>
+
 
 ### 18. `sequelize`
 Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server.
